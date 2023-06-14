@@ -1,4 +1,4 @@
-import './Navbar.css'
+import '../Styles/Navbar.css'
 import React from "react";
 import {NavLink} from 'react-router-dom';
 import {
@@ -18,7 +18,7 @@ const Navbar = () => {
                 <CDBSidebarHeader prefix={<i className="fa fa-bars" />}>
                     <div className="container" style={{ display: 'flex', alignItems: 'center' }}>
                         <img
-                            src={require('./img/logoIcon.png')}
+                            src={require('../img/logoIcon.png')}
                             alt=""
                             style={{ width: '30px' }}
                         />
@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 <CDBSidebarContent className="sidebar-content">
                     <CDBSidebarMenu>
-                        <NavLink to="/" activeclassname="activeClicked">
+                        <NavLink to="/dashboard" activeclassname="activeClicked">
                             <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
                         </NavLink>
                         <NavLink to="/auth" activeclassname="activeClicked">

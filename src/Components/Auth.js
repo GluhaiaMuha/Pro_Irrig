@@ -1,10 +1,10 @@
-import './Auth.css'
+import '../Styles/Auth.css'
 import React from "react";
 
 const Auth = () => {
     return (
 
-        <div className="container flex">
+        <div className="container flex authContainer">
             <div className="row d-flex justify-content-center mt-5">
                 <div className="col-12 col-md-8 col-lg-6 col-xl-5">
                     <div className="card py-3 px-2">
@@ -15,14 +15,10 @@ const Auth = () => {
                             </div>
                         </div>
                         <div className="division">
+                            <hr/>
                             <div className="row">
-                                <div className="col-3">
-                                    <div className="line l"></div>
-                                </div>
-                                <div className="col-6"><span>Or with Email:</span></div>
-                                <div className="col-3">
-                                    <div className="line r"></div>
-                                </div>
+                                <div className="col-12 text-center" style={{marginBottom: "10px"}}>
+                                    <span>Or with Email:</span></div>
                             </div>
                         </div>
                         <form className="myform">
@@ -35,21 +31,20 @@ const Auth = () => {
                             <div className="row">
                                 <div className="col-md-6 col-12">
                                     <div className="form-group form-check">
-                                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                                        <input type="checkbox" className="form-check-input" id="passwordCheckBox"/>
                                         <label className="form-check-label" htmlFor="exampleCheck1">Remember me</label>
                                     </div>
                                 </div>
                             </div>
                             <div className="form-group mt-3">
-                                <button type="button" className="btn btn-block btn-primary btn-lg"><small><i
-                                    className="far fa-user pr-2"></i>Log In</small></button>
+                                <button type="button" className="btn btn-primary btn"><small>
+                                    <i className="far fa-user pr-2"></i> Log In</small></button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-
 
 
     );

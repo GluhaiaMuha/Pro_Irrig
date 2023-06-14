@@ -1,0 +1,12 @@
+.recharts-wrapper {
+    margin : 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h3 {
+    margin-left: auto;
+    margin-right: auto;
+}

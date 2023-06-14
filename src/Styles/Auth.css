@@ -1,0 +1,35 @@
+.btn-primary {
+    background-color: #1a936f;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+}
+.btn-primary:active{
+    background-color: #0a3a2c!important;
+}
+
+.btn-primary:hover {
+    background-color: #0a3a2c;
+}
+.form-control{
+    background-color: #fff;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: none;
+}
+
+input[type="email"], input[type="password"]{
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.hr{
+    width: 100%;
+}
+.form-check-input:checked{
+    background-color: #0a3a2c!important;
+    box-shadow: none!important;
+}
+.form-check-input:focus{
+    box-shadow: none!important;
+}
